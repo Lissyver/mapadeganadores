@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPA DE GANADORES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .bitcoin-symbol {
+            font-size: 2.5em; /* Adjust size as needed */
+            margin: 0 15px;
+            color: #f7931a; /* Bitcoin orange color */
+        }
+        h1 {
+            color: #0056b3;
+            font-size: 2.8em;
+            margin: 0;
+        }
+        .map-container, .form-container, .banner-container {
+            width: 100%;
+            max-width: 900px; /* Adjust max-width as desired */
+            margin: 0 auto 30px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden; /* Ensures iframe/img respects border-radius */
+        }
+        /* Override default iframe height for consistency */
+        .map-container iframe {
+            width: 100%;
+            height: 480px; /* Specific height for the map */
+            border: none;
+        }
+        .form-container iframe {
+            width: 100%;
+            height: 700px; /* Height for the Tally form */
+            border: none;
+        }
+        .banner-container img {
+            width: 100%; /* Make the banner responsive within its container */
+            display: block; /* Prevent extra space below the image */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <span class="bitcoin-symbol">₿</span>
+        <h1>MAPA DE GANADORES</h1>
+        <span class="bitcoin-symbol">₿</span>
+    </div>
+
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1VU_oR5gsqPmnQlX2fKTtlNpR8ci3ukQ&ehbc=2E312F" width="640" height="480" allowfullscreen></iframe>
+    </div>
+
+    <div class="banner-container">
+        <a href="https://tally.so/r/nGyEqk" target="_blank">
+            <img src="https://i.ibb.co/LhqFLb6t/pasivos.png" alt="Calculadora de Ingresos Pasivos" border="0">
+        </a>
+    </div>
+
+    <div class="form-container">
+        <iframe src="https://tally.so/r/wby2qe"></iframe>
+    </div>
+
+</body>
+</html>

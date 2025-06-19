@@ -19,9 +19,9 @@
             margin-bottom: 30px;
         }
         .bitcoin-symbol {
-            font-size: 2.5em; /* Adjust size as needed */
+            font-size: 2.5em;
             margin: 0 15px;
-            color: #f7931a; /* Bitcoin orange color */
+            color: #f7931a;
         }
         h1 {
             color: #0056b3;
@@ -30,27 +30,26 @@
         }
         .map-container, .form-container, .banner-container {
             width: 100%;
-            max-width: 900px; /* Adjust max-width as desired */
+            max-width: 900px;
             margin: 0 auto 30px auto;
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            overflow: hidden; /* Ensures iframe/img respects border-radius */
+            overflow: hidden;
         }
-        /* Override default iframe height for consistency */
         .map-container iframe {
             width: 100%;
-            height: 480px; /* Specific height for the map */
+            height: 480px;
             border: none;
         }
         .form-container iframe {
             width: 100%;
-            height: 700px; /* Height for the Tally form */
+            height: 700px;
             border: none;
         }
         .banner-container img {
-            width: 100%; /* Make the banner responsive within its container */
-            display: block; /* Prevent extra space below the image */
+            width: 100%;
+            display: block;
         }
     </style>
 </head>
@@ -62,19 +61,5 @@
         <span class="bitcoin-symbol">₿</span>
     </div>
 
-    <div class="map-container">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1VU_oR5gsqPmnQlX2fKTtlNpR8ci3ukQ&ehbc=2E312F" width="640" height="480" allowfullscreen></iframe>
-    </div>
+    <div class="map-contai
 
-    <div class="banner-container">
-        <a href="https://tally.so/r/nGyEqk" target="_blank">
-            <img src="https://i.ibb.co/LhqFLb6t/pasivos.png" alt="Calculadora de Ingresos Pasivos" border="0">
-        </a>
-    </div>
-
-    <div class="form-container">
-        <iframe src="https://tally.so/r/wby2qe"></iframe>
-    </div>
-
-</body>
-</html>
